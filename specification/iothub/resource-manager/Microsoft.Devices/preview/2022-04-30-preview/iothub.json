@@ -2919,6 +2919,13 @@
           "items": {
             "$ref": "#/definitions/RoutingStorageContainerProperties"
           }
+        },
+        "cosmosDBSqlCollections": {
+          "description": "The list of cosmos DB endpoints that IoT hub routes messages to, based on the routing rules.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/RoutingCosmosDBEndpointProperties"
+          }
         }
       }
     },
